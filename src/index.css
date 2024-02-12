@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box !important;
+}
+
+body {
+  background: #f8f8f8 !important;
+}
+
+.top-header {
+  padding: 0.5rem;
+  box-shadow: 0px 0px 5px rgb(162, 162, 162);
+}
+
+.top-header-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar {
+  background: #091431 !important;
+}
+
+.navbar .container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.navbar-toggler {
+  background: white !important;
+}
+
+.navbar .container ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: white !important;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid #091431 !important;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #F01C21 !important;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid #F01C21 !important;
+}
+
+.header-form {
+  width: 418px;
+  height: 38px;
+  padding: 0px 16px 0px 16px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  background: #EEEEEE;
+  display: flex;
+  align-items: center;
+}
+
+.header-form button {
+  width: 10%;
+}
+
+.header-form input {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 90%;
+  outline: none;
+  color: #8B8B8B;
+}
+
+.header-button {
+  width: 148px;
+  height: 38px;
+  padding: 9px 16px 9px 16px;
+  border-radius: 8px;
+  gap: 8px;
+  background-color: #F01C21;
+  border: none;
+  color: white;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.section2-header {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+
+
+.section2-header-button {
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  background: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.section2-header-button.active {
+  background: white !important;
+}
+
+.section2-header-button.active span {
+  color: red;
+}
+
+.section2-header-button:hover {
+  background: white !important;
+}
+
+.section2-header-button:hover span {
+  color: red;
+}
+
+.card-section {
+  padding: 2rem 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card {
+  width: 200px !important;
+  height: 238px !important;
+  text-align: center;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.text1 {
+  color: #3BA615;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.text2 {
+  color: #878787;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.header-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #091431;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-text::after {
+  content: "";
+  background: red !important;
+  width: 76px;
+  height: 3px;
+
+}
+
+.small-card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.section4 {
+  background: linear-gradient(180deg, rgba(218, 218, 218, 0.25) 0%, #DADADA 100%) !important;
+}
+
+.section4 .card-section {
+  gap: 0 !important;
+  padding-top: 0;
+  width: 100%;
+}
+
+.section4 .card-section .card {
+  border-radius: 0 !important;
+  border-left: none;
+  border-right: none;
+}
+
+.small-card {
+  width: 92px;
+  height: 90px;
+  padding: 16px;
+  border-radius: 8px 8px 0px 0px;
+  border: 0px 0px 2px 0px;
+  gap: 10px;
+  background: #ffffff !important;
+  text-align: center;
+}
+
+.section5 {
+  background: #f8f8f8 !important;
+  margin: 2rem;
+  text-align: center;
+  padding: 50px;
+}
+
+.section5-images {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+
+.section5-images .image {
+  width: fit-content;
+}
+
+.section6 {
+  background: linear-gradient(180deg, rgba(218, 218, 218, 0.25) 0%, #DADADA 100%) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.section6-inside-div {
+  width: fit-content;
+  display: flex;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.section6-inside-div .right-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 2rem;
+}
+
+.section6-inside-div .right-half .heading {
+  width: 259px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #091431;
+}
+
+.section6-inside-div .right-half .second-text {
+  width: 259px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #908F8F;
+}
+
+.section6-inside-div .right-half form input {
+  width: 420px;
+  height: 47px;
+  padding: 16px 20px 16px 20px;
+  border-radius: 8px;
+  border: 1px solid #D3D3D3;
+  gap: 8px;
+  color: #D3D3D3;
+}
+
+.section7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.buttons img{
+  border: 2px solid red;
+  width: fit-content !important;
+}
+
+.section8-image{
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  background: #091431 !important;
+  color: white;
+  padding: 2rem 10rem;
+}
+.footer .division{
+  flex: 1;
+  padding-left: 1rem;
+}
+
+.footer .division p{
+  margin: 0;
+  margin: 5px;
+}
+
+.footer .division .footer-heading{
+  color: red !important;
+  
+}
+
+
+@media (max-width: 1120px) {
+
+  .card-section {
+    padding: 0;
+  }
+
+  .section5 {
+    padding: 0;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .top-header {
+    display: none;
+  }
+
+  .section6-inside-div .right-half form input {
+    width: 80% !important;
+  }
+  .footer{
+    padding: 7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section6-inside-div {
+    flex-direction: column;
+  }
+
+  .section2-header{
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+  }
+  
+  .footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+  }
+}
